@@ -59,6 +59,7 @@ margin-bottom: 72px;
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  display: inline-block
 }
 .logo-highlight {
   color: #2e2f42;
@@ -130,6 +131,8 @@ margin-bottom: 72px;
 .team-card {
   text-align: center;
   margin-bottom: 20px;
+  border-radius: 0px 0px 4px 4px;
+
 }
 .team-menu{
     display: flex;
