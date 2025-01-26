@@ -53,7 +53,7 @@ ul {
 .logo-highlight {
   color: #2e2f42;
 }
-.menu {
+.menu-gen {
   display: flex;
   gap: 20px;
 }
