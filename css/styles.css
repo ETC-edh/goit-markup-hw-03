@@ -22,9 +22,9 @@ ul {
   padding: 0;
 }
 ul {
-  list-style: none;
-  gap: 40px;
-}
+    list-style: none;
+    gap: 40px;
+  }
 
 /* Container */
 .container{
@@ -154,11 +154,12 @@ margin-bottom: 72px;
   background-color: #2e2f42;
   color: #f4f4fd;
   text-align: center;
-  padding: 20px 0;
+  padding: 100px 0;
 }
 .footer-text {
   font-size: 14px;
   line-height: 1.5;
+  max-width: 264px
 }
 .logo-white {
   color: #f4f4fd;
