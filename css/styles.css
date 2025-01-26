@@ -46,6 +46,11 @@ ul {
 .header-two{
 margin-bottom: 72px;
 }
+.header-three{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .site-logo {
   font-family: "Raleway", serif;
   font-weight: 700;
