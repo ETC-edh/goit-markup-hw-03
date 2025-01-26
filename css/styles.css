@@ -80,9 +80,7 @@ margin-bottom: 72px;
 .menu-item:focus {
   color: #404bbf;
 }
-.paragraph-one{
-    text-align: center;
-}
+
 
 /* Section Styles */
 .section {
@@ -142,7 +140,7 @@ margin-bottom: 72px;
     padding: 32px 0;
 }
 .card-frame{
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
 }
 /* Portfolio Section */
 .portfolio-section {
@@ -168,6 +166,7 @@ margin-bottom: 72px;
 }
 .benefits{
     gap: 24px;
+    display: flex;
 }
 /* Footer */
 .footer {
@@ -179,8 +178,12 @@ margin-bottom: 72px;
 .footer-text {
   font-size: 14px;
   line-height: 1.5;
-  max-width: 264px
+  max-width: 264px;
+  margin: 16 px auto 0;
 }
 .logo-white {
   color: #f4f4fd;
+}
+.paragraph-one{
+    text-align: center;
 }
