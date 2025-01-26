@@ -42,6 +42,10 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+
+.header-two{
+margin-bottom: 72px;
+}
 .site-logo {
   font-family: "Raleway", serif;
   font-weight: 700;
@@ -114,7 +118,10 @@ ul {
   text-align: center;
   margin-bottom: 20px;
 }
-
+.team-menu{
+    display: flex;
+    gap: 24px;
+}
 /* Portfolio Section */
 .portfolio-section {
   text-align: center;
@@ -124,7 +131,9 @@ ul {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-
+.benefits{
+    gap: 24px;
+}
 /* Footer */
 .footer {
   background-color: #2e2f42;
