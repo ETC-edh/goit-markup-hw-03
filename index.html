@@ -30,6 +30,22 @@
             display: flex;
             gap: 40px;
         }
+        /* Address Section */
+.contact-info {
+  font-style: normal;
+}
+.contact-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: #404bbf;
+}
+
     </style>
   </head>
   <body>
@@ -37,7 +53,7 @@
       <!--Header Section-->
       <header class="header">
         <div class="container">
-        <nav>
+        <nav class="nav-menu">
           <a href="./index.html" class="site-logo">
             WEB<span class="logo-highlight">Studio</span>
           </a>
@@ -47,8 +63,14 @@
             <li><a href="#" class="menu-item">Contacts</a></li>
           </ul>
         </nav>
+        <address class="contact-info">
+            <ul>
+              <li><a href="mailto:info@devstudio.com" class="contact-item">info@devstudio.com</a></li>
+              <li><a href="tel:+110001111111" class="contact-item">+11 (000) 111-11-11</a></li>
+            </ul>
+          </address>
         </div>
-      </header>
+    </header>
       <!--End of Header Section-->
 
       <main>
@@ -122,7 +144,7 @@
               <h3 class="header-three">Camila Garcia</h3>
               <p class="paragraph-one">Marketing</p>
             </li>
-            <li cclass="team-card">
+            <li class="team-card">
               <img
                 src="./images/img4.jpg"
                 alt="Portrait of Daniel Wilson"
