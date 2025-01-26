@@ -1,0 +1,134 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
+  background-color: #fff;
+  letter-spacing: 0.02em;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+/* Container */
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-logo {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+.logo-highlight {
+  color: #2e2f42;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+}
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
+/* Section Styles */
+.section {
+  padding: 120px 0;
+}
+.section-one {
+  background-color: #2e2f42;
+  text-align: center;
+}
+.main-header {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #4d5ae5;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+
+/* Team Section */
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  text-align: center;
+}
+.portfolio-card {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.logo-white {
+  color: #f4f4fd;
+}
