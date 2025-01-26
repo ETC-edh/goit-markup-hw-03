@@ -49,6 +49,7 @@ ul {
 margin-bottom: 72px;
 text-align: center;
 color: #2e2f42;
+
 }
 .header-three{
     text-align: center;
@@ -162,7 +163,7 @@ color: #2e2f42;
 }
 .portfolio-line{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
 }
