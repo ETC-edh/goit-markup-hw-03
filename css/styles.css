@@ -23,13 +23,13 @@ ul {
 }
 ul {
   list-style: none;
+  gap: 40px;
 }
 
 /* Container */
 .container{
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
   display: flex;
   padding: 188px 0;
 }
