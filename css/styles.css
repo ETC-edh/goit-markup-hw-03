@@ -146,6 +146,12 @@ margin-bottom: 72px;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 .benefits{
     gap: 24px;
 }
