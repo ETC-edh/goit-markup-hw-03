@@ -17,13 +17,15 @@ h1,
 h2,
 h3,
 p,
-ul {
+{
   margin: 0;
   padding: 0;
 }
 ul {
     list-style: none;
     gap: 40px;
+    margin: 0;
+  padding: 0;
   }
 
 /* Container */
@@ -45,6 +47,8 @@ ul {
 
 .header-two{
 margin-bottom: 72px;
+text-align: center;
+color: #2e2f42;
 }
 .header-three{
     text-align: center;
@@ -148,9 +152,7 @@ margin-bottom: 72px;
   padding: 120px 0;
 }
 .portfolio-card {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio-item{
     display: flex;
@@ -163,6 +165,16 @@ margin-bottom: 72px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+}
+.portfolio-line:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.portfolio-line img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 16px;
 }
 .benefits{
     gap: 24px;
@@ -180,6 +192,9 @@ margin-bottom: 72px;
   line-height: 1.5;
   max-width: 264px;
   margin: 16 px auto 0;
+}
+.footer a{
+    display: inline-block;
 }
 .logo-white {
   color: #f4f4fd;
