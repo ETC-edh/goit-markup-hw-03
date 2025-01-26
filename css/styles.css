@@ -82,6 +82,7 @@ margin-bottom: 72px;
 .paragraph-one{
     text-align: center;
 }
+
 /* Section Styles */
 .section {
   padding: 188px 0;
@@ -90,7 +91,9 @@ margin-bottom: 72px;
   background-color: #2e2f42;
   text-align: center;
 }
-
+.section-two{
+    padding: 120px 0;
+}
 .main-header {
   color: #fff;
   font-size: 56px;
@@ -121,6 +124,7 @@ margin-bottom: 72px;
 /* Team Section */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-card {
   text-align: center;
