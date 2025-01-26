@@ -147,6 +147,7 @@ margin-bottom: 72px;
 /* Portfolio Section */
 .portfolio-section {
   text-align: center;
+  padding: 120px 0;
 }
 .portfolio-card {
   border-bottom: 1px solid #ddd;
@@ -158,6 +159,12 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+.portfolio-line{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .benefits{
     gap: 24px;
