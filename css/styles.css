@@ -166,9 +166,7 @@ color: #2e2f42;
     border-top: none;
     margin-bottom: 8px;
 }
-.portfolio-line:hover {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
+
 .portfolio-line img {
     width: 100%;
     max-width: 360px;
@@ -193,9 +191,7 @@ color: #2e2f42;
   max-width: 264px;
   margin: 16 px auto 0;
 }
-.footer a{
-    display: inline-block;
-}
+
 .logo-white {
   color: #f4f4fd;
 }
