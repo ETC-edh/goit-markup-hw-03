@@ -148,7 +148,7 @@ color: #2e2f42;
   padding: 120px 0;
 }
 .portfolio-card {
-  flex-basis: calc((100% - 72px))  / 4;
+  flex-basis: calc((100% - 72px)  / )4;
 }
 .portfolio-item{
     display: flex;
